@@ -1,0 +1,54 @@
+.recommend {
+  width: 100%;
+  .mint-swipe {
+    height: 209px;
+    a {
+      width: 100%;
+      height: 100%;
+      display: block;
+      img {
+        height: 100%;
+      }
+
+    }
+  }
+  .mint-tabbar {
+    bottom: auto;
+    position: static;
+    border-bottom: 1px solid #e7e9e8;
+
+    .mint-tab-item {
+      padding: 20px 0;
+
+      .mint-tab-item-icon {
+        width: 77px !important;
+        height: 77px;
+        margin: 0 auto;
+        position: absolute;
+      }
+
+      .mint-tab-item-label {
+        font-size: 15px !important;
+      }
+
+    }
+  }
+  .mint-cell {
+    text-align: left;
+  }
+  .mint-cell {
+    font-size: 44px !important;
+    .mint-cell-left {
+      width: 20px;
+      height: 20px;
+      background: #000;
+    }
+    .mint-cell-wrapper {
+      background: #000;
+      .mint-cell-value {
+
+      }
+
+    }
+  }
+}
